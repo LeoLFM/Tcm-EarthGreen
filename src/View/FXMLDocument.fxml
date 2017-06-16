@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="284.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLDocumentController">
+    <stylesheets>
+        <URL value="@newCascadeStyleSheet.css" />
+    </stylesheets>
+    <children>
+      <Label layoutX="184.0" layoutY="46.0" text="Lixo!" />
+      <TextField fx:id="btnLogin" layoutX="122.0" layoutY="103.0" promptText="Login" />
+      <TextField fx:id="btnSenha" layoutX="122.0" layoutY="155.0" promptText="Senha" />
+      <Button fx:id="btnLogar" layoutX="172.0" layoutY="219.0" mnemonicParsing="false" styleClass="botao" text="Logar" />
+   </children>
+</AnchorPane>
