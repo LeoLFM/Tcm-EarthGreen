@@ -7,36 +7,24 @@ package Controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
-/**
- *
- * @author Leo
- */
-public class FXMLDocumentController implements Initializable {
-  
-   @FXML
-    private TextField tfLogin;
+
+public class LoginController implements Initializable {
     
-   @FXML
-    private TextField tfSenha;
+    @FXML
+    private Button btn_Logar;
 
     @FXML
-    private TextField tfSalario;
+    private TextField tfLogin_login;
 
     @FXML
-    private TextField tfEmail;
+    private TextField tfSenha_login;
 
-    @FXML
-    private Button BtnCadastrar;
-
-    @FXML
-    private TextField tfNome;
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

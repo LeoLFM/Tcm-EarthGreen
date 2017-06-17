@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="446.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MostraFuncionarioController">
+   <children>
+      <Text fx:id="Funcionarios" layoutX="153.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Funcionarios">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <TableView layoutY="57.0" prefHeight="388.0" prefWidth="485.0">
+        <columns>
+          <TableColumn fx:id="tvNome" prefWidth="101.0" text="Nome" />
+          <TableColumn fx:id="tvEmail" prefWidth="97.0" text="Email" />
+            <TableColumn fx:id="tvLogin" prefWidth="94.0" text="Login" />
+            <TableColumn fx:id="tvSenha" prefWidth="94.0" text="Senha" />
+            <TableColumn fx:id="tvSalario" prefWidth="98.0" text="Salario" />
+        </columns>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem fx:id="ctxtMEditar" mnemonicParsing="false" text="Editar" />
+                  <MenuItem fx:id="ctxtMExcluir" mnemonicParsing="false" text="Excluir" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </TableView>
+   </children>
+</AnchorPane>

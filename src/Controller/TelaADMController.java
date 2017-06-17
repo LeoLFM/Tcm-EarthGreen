@@ -7,36 +7,38 @@ package Controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 
 /**
+ * FXML Controller class
  *
  * @author Leo
  */
-public class FXMLDocumentController implements Initializable {
-  
-   @FXML
-    private TextField tfLogin;
+public class TelaADMController implements Initializable {
+
+    @FXML
+    private Button btnListaFuncionario;
+
+    @FXML
+    private Button btnCadastraLixo;
+
+    @FXML
+    private Button btnCadastraFornecedor;
+
+    @FXML
+    private Button btnListaFornecedores;
+
+    @FXML
+    private Button btnListaLixo;
+
+    @FXML
+    private Button btnCadastraFuncionario;
     
-   @FXML
-    private TextField tfSenha;
-
-    @FXML
-    private TextField tfSalario;
-
-    @FXML
-    private TextField tfEmail;
-
-    @FXML
-    private Button BtnCadastrar;
-
-    @FXML
-    private TextField tfNome;
+    
+    
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
