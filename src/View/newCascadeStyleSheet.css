@@ -10,12 +10,13 @@ and open the template in the editor.
     Created on : 12/06/2017, 09:24:32
     Author     : Aluno
 */
-.mainFxmlClass{
-    
-}
- 
-.botao{
-    
-    -fx-backgroundcollor: red;
-    
+.button {
+    -fx-background-color: transparent; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
